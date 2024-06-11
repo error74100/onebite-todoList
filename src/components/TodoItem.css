@@ -1,0 +1,48 @@
+.TodoItem {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 20px 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.TodoItem .item_check {
+  width: 50px;
+  text-align: left;
+}
+
+.TodoItem .item_check input {
+  width: auto;
+}
+
+.TodoItem .item_title {
+  flex: 1;
+  padding: 0 20px 0;
+}
+
+.TodoItem .item_date {
+  width: 110px;
+  text-align: center;
+}
+
+.TodoItem .item_button {
+  padding: 0px 0 0 20px;
+}
+
+.TodoItem .item_button button {
+  width: 100%;
+  height: 100%;
+  font-size: 14px;
+  color: #222;
+  padding: 8px 10px;
+  background-color: #ddd;
+  border-radius: 5px;
+  outline: none;
+  border: none;
+  cursor: pointer;
+  white-space: nowrap;
+}
+
+.TodoItem .item_button button:active {
+  background-color: #bababa;
+}

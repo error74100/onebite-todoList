@@ -1,0 +1,35 @@
+#root {
+  max-width: 640px;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: bold;
+}
+
+h3 {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.Header a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.Header .today {
+  font-size: 36px;
+  color: rgb(24, 171, 243);
+  padding: 20px 0 30px;
+  font-weight: bold;
+}
+
+input {
+  width: 100%;
+  font-size: 16px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 15px 10px;
+}
